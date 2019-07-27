@@ -100,12 +100,12 @@ p {
 
 ::-moz-selection {
     color: #FFFFFF;
-    background: #1eb858;
+    background: #FF9900;
 }
 
 ::selection {
     color: #FFFFFF;
-    background: #1eb858;
+    background: #FF9900;
 }
 
 .nopadding {
@@ -609,8 +609,8 @@ font-family: Arial;
 }
 
 .form .btn-action {
-	background: #1eb858;
-	border-color: #1eb858;
+	background: #FF9900;
+	border-color: #FF9900;
 	color: #FFFFFF;
 }
 
@@ -627,7 +627,7 @@ font-family: Arial;
 
 
 .image-bg .hero-section {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/image-bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/app-signup.png) no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
@@ -677,7 +677,7 @@ font-family: Arial;
 
 .signup-form {
 	padding: 25px 25px 30px 25px;
-	background: #1eb858;
+	background: #FF9900;
 	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
 	text-align: left;
 }
@@ -714,34 +714,34 @@ font-family: Arial;
 
 
 .signup .btn-action.btn-round {
-	background: #1eb858;
-	border-color: #1eb858;
+	background: #FF9900;
+	border-color: #FF9900;
 	color: #FFFFFF;
 	font-size: 15px;
 	padding: 12px 24px;
 	font-weight: 600;
 	text-transform: capitalize;
-	border: 2px solid #1eb858;
+	border: 2px solid #FF9900;
 	border-radius: 30px;
 }
 
 .signup .btn-action.btn-round:hover, .signup .btn-action.btn-round:focus {
 	background: transparent;
-	color: #1eb858;
-	border-color: #1eb858;
+	color: #FF9900;
+	border-color: #FF9900;
 }
 
 
 .signup .btn-action {
-	background: #1eb858;
-	border-color: #1eb858;
+	background: #FF9900;
+	border-color: #FF9900;
 	color: #FFFFFF;
 }
 
 .signup .btn-action:hover {
 	background: transparent;
-	border-color: #1eb858;
-	color: #1eb858;
+	border-color: #FF9900;
+	color: #FF9900;
 }
 
 
@@ -959,14 +959,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app .btn-action {
 	color: #FFFFFF;
-	background: #1eb858;
-	border-color: #1eb858;
+	background: #FF9900;
+	border-color: #FF9900;
 }
 
 .app .btn-action:hover {
-	color: #1eb858;
+	color: #FF9900;
 	background: transparent;
-	border-color: #1eb858;
+	border-color: #FF9900;
 }
 
 
@@ -1082,7 +1082,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 /* ----- Client Sectiion Styling ----- */
 
 .client-section {
-	background-color: #1eb858;
+	background-color: #FF9900;
 	padding: 5px 0 0 0;
 }
 
@@ -1133,7 +1133,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch-icon {
 	margin: 0 0 10px 0;
-	background: #1eb858;
+	background: #FF9900;
 	width: 60px;
 	height: 60px;
 	display: inline-block;
@@ -1323,18 +1323,18 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .feature-sub .sub-inner .btn-action {
 	color: #FFFFFF;
-	background: #1eb858;
-	border-color: #1eb858;
+	background: #FF9900;
+	border-color: #FF9900;
 }
 
 .feature-sub .sub-inner .btn-action:hover {
-	color: #1eb858;
+	color: #FF9900;
 	background: transparent;
-	border-color: #1eb858;
+	border-color: #FF9900;
 }
 
 .feature-sub {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/image-bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/app-signup.png) no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 150px 0;
 }
@@ -1389,19 +1389,44 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	margin: 10px 0 50px 0;
 }
 
-.app-features .details {
+
+
+.app-features .wordDetail {
+	/* font-size: 18px;
+	font-weight: 400;
+	color: #A1A1A1;
+	line-height: 1.4; */
+	/* margin: 50px 0px 50px 0px; */
+	height: 300px;
+	/* float: left; */
+}
+.app-features .imageDetail {
+	margin: 0px 0px 100px 0px
+}
+
+/* .app-features .leftImages {
+	 margin: 0 auto;
+	 float: left;
+}  */
+
+.app-features .left {
+	width:50%;
 	font-size: 18px;
 	font-weight: 400;
 	color: #A1A1A1;
 	line-height: 1.4;
-	margin: 10px 0 50px 0;
-	float: right;
+	margin: 10px 0px 10px 0px;
+	float: left;
 }
 
-
-.app-features img {
-	 margin: 0 auto;
-	 float: left;
+.app-features .right{
+	width:50%;
+	font-size: 18px;
+	font-weight: 400;
+	color: #A1A1A1;
+	line-height: 1.4;
+	margin: 10px 0px 10px 0px;
+	float: right;
 }
 
 .app-features .features-left, .app-features .features-right {
@@ -1417,7 +1442,9 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-size: 72px;
 	color: #FF9900;
 }
-
+.featureContainer{
+	margin-bottom: 100px;
+}
 
 .app-features .feature-single {
 	margin-left: 0;
@@ -1658,7 +1685,7 @@ padding: 120px 10px 50px 350px;
 .table-left .icon, .table-right .icon {
 	font-size:60px;
 	margin: 0 auto;
-	color:#1eb858;
+	color:#FF9900;
 }
 
 .table-left .pricing-details span, .table-right .pricing-details span {
@@ -1770,7 +1797,7 @@ padding: 120px 10px 50px 350px;
 .cta-sub {
 	padding-top: 150px;
 	padding-bottom: 150px;
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../images/cta_bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../images/app-signup.png) no-repeat center center;
 	background-size: cover;
 }
 
@@ -1910,7 +1937,7 @@ padding: 120px 10px 50px 350px;
 
 .contact i {
 	font-size: 42px;
-	color: #1eb858;
+	color: #FF9900;
 	text-align: left;
 }
 
@@ -1918,7 +1945,7 @@ padding: 120px 10px 50px 350px;
 
 	font-size: 21px;
 	font-weight: 400;
-	color: #1eb858;
+	color: #FF9900;
 	margin: 10px 0 10px 0;
 	text-align: left;
 }
@@ -1937,7 +1964,7 @@ padding: 120px 10px 50px 350px;
 
 	font-size: 18px;
 	font-weight: 400;
-	color: #1eb858;
+	color: #FF9900;
 	text-decoration: none;
 	display: inline-block;
 }
@@ -1978,7 +2005,7 @@ padding: 120px 10px 50px 350px;
 .footer-text p {
 font-family:"Open Sans";
 font-size: 12px;
-	color: #1eb858;
+	color: #FF9900;
 	font-weight: 400;
 	line-height: 1.4;
 	margin-top: 10px;
